@@ -1,0 +1,14 @@
+{
+  "name": "afrochain",
+  "version": "1.0.0",
+  "description": "Africa's blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manyika",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
