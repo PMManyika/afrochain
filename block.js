@@ -14,4 +14,3 @@ const block1 = new Block({
     hash : 'foo-hash', 
     data : 'foo-data'});
 
-console.log('block1', block1);
