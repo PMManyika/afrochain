@@ -38,7 +38,6 @@ describe('Blockchain', () => {
             beforeEach(() => {
                 blockchain.addBlock({ data: 'Bears' });
                 blockchain.addBlock({ data: 'Beets' });
-                blockchain.addBlock({ data: 'Battlestar Galactica' });
 
             });
 
@@ -93,7 +92,7 @@ describe('Blockchain', () => {
                     beforeEach(() => {
                         newChain.addBlock({ data: 'Bears' });
                         newChain.addBlock({ data: 'Beets' });
-                        newChain.addBlock({ data: 'Battlestar Galactica' });
+                        newChain.addBlock({ data: 'Battlestar' });
         
                     });
                     describe('and the chain is invalid', () => {
@@ -123,7 +122,7 @@ describe('Blockchain', () => {
                         });
 
                         it('logs about the chain replacement', () => {
-                            // expect(logMock).toHaveBeenCalled();
+                            expect(logMock).toHaveBeenCalled();
 
                         });
                     });
